@@ -1,0 +1,49 @@
+body {
+    background-color: lightyellow;
+}
+
+
+/* Pantalla Móvil */
+
+@media screen and (max-width: 568px) { 
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 2.0;
+    }
+
+    .column{ 
+        margin-bottom: 30px;
+
+    }
+
+    #button { 
+        align-items: flex-start;
+    }
+}
+
+/* Pantalla PC-Tablet */
+
+@media screen and (min-width: 569px) {
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 20px; 
+        line-height: 2.0;
+    }
+
+    .column{ 
+        margin-left: 20px;
+
+    }
+
+
+
+}
+
+
+

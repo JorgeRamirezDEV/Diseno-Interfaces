@@ -1,0 +1,109 @@
+/* Pantalla Móvil */
+
+@media screen and (max-width: 568px) { 
+
+    .container { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;   /* Wrap permite que los objetos no intenten amontonarse en la misma linea */
+        height: 1800px;
+    }
+
+
+    .columna1 { 
+        flex-basis: 100%;    
+    }
+    .columna2 { 
+        flex-basis: 100%;    
+    }
+    .columna3 { 
+        flex-basis: 100%;    
+    }
+    .columna4 {       
+        flex-basis: 100%;    
+    }
+    .columna5 { 
+        flex-basis: 100%;    
+    }
+}
+
+/* Pantalla Tablet */
+
+@media screen and (max-width: 768px) and (min-width: 568px) {
+
+    .container { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 900px;
+    }
+
+    .columna1 { 
+        flex-basis: 100%;
+    }
+
+    .columna2 { 
+        flex-basis: 50%;
+    }
+    .columna3 { 
+        flex-basis: 50%;
+    }
+    .columna4 {       
+        flex-basis: 50%;
+    }
+    .columna5 { 
+        flex-basis: 50%;
+    }
+}
+
+
+/* Pantalla Escritorio */
+
+@media screen and (min-width: 768px) {
+    .container { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .columna1 { 
+        flex-basis: 60%;
+    }
+
+    .columna2 { 
+        flex-basis: 40%;
+    }
+    .columna3 { 
+        flex-basis: 33%;
+
+    }
+    .columna4 {       
+        flex-basis: 34%;
+    }
+    .columna5 { 
+        flex-basis: 33%;
+    }
+}
+
+
+nav { 
+    background-color: lightblue;
+    text-align: right;
+}
+
+.columna1 { 
+    background-color: grey;  
+}
+.columna2 { 
+    background-color: greenyellow;
+}
+.columna3 { 
+    background-color: red;
+}
+.columna4 { 
+    background-color: burlywood;
+}
+.columna5 { 
+    background-color: gold;
+}
