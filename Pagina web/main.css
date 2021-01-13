@@ -1,5 +1,6 @@
+/*Barra de arriba*/
 
-img {
+#logo {
     margin: 20px;
     height: 20%;
     width: 90px;
@@ -53,6 +54,7 @@ header {
 #label_carrito {
     order: 2;
     text-align: right;
+    font: bold 13px sans-serif;
     
 
 }
@@ -61,4 +63,91 @@ header {
     order: 2;
     margin-left: 45px;
     margin-right: 70px;
+    font: bold 13px sans-serif;
+
+}
+
+/*Barra abajo*/
+
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.todo-footer{
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 12px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+
+.todo-footer .footer-izquierda,
+.todo-footer .footer-centro,
+.todo-footer .footer-derecha{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.todo-footer .footer-izquierda{
+    width: 30%;
+}
+
+
+
+.todo-footer .copyright{
+    color:  #8f9296;
+    font-size: 9px;
+    font-weight: normal;
+    margin: 0;
+    opacity: 0.5;
+}
+
+
+.todo-footer .footer-centro{
+    width: 35%;
+}
+
+
+
+.todo-footer .footer-derecha{
+    width: 30%;
+}
+
+
+
+.todo-footer .footer-logos{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#rrss {
+    padding: 7px;
+}
+
+p { 
+    
+}
+
+#footer-text {
+    text-align: center
 }
