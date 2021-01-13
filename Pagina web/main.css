@@ -181,6 +181,7 @@ div {
     flex-basis: 100%;
     margin-left: 50px;
     margin-bottom: 40px;
+    font: bold 30px sans-serif;
 }
 
 
@@ -221,6 +222,7 @@ input {
 }
 
 #login-forget-text {
+    margin-top: 20px;
     padding-bottom: 50px;
     margin-left: 50px;
     
