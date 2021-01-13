@@ -151,3 +151,77 @@ p {
 #footer-text {
     text-align: center
 }
+
+.login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 500px;
+    
+
+}
+
+#box-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+div {
+    
+}
+
+#login-text {
+    flex-basis: 100%;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+#login-first-input {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+#login-first-button {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+
+
+}
+
+#login-second-input {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+input {
+    
+}
+
+#login-second-button {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 100px;
+
+}
+
+#login-forget-text {
+    padding-bottom: 50px;
+    margin-left: 50px;
+    
+}
