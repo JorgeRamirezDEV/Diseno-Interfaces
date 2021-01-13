@@ -67,11 +67,16 @@ header {
 
 }
 
+
+
+
+
+
+
 /*Barra abajo*/
 
 footer{
-    display: flex;
-    position: fixed;
+    display: flex
     bottom: 0;
     justify-content: center;
     align-items: center;
@@ -144,13 +149,19 @@ footer{
     padding: 7px;
 }
 
-p { 
-    
-}
+
 
 #footer-text {
     text-align: center
 }
+
+
+
+
+
+
+/*Login*/
+
 
 .login {
     display: flex;
@@ -173,9 +184,6 @@ p {
 
 }
 
-div {
-    
-}
 
 #login-text {
     flex-basis: 100%;
@@ -209,9 +217,6 @@ div {
     height: 25px;
 }
 
-input {
-    
-}
 
 #login-second-button {
     margin-left: 50px;
@@ -226,4 +231,75 @@ input {
     padding-bottom: 50px;
     margin-left: 50px;
     
+}
+
+
+
+/*Sobre nosotros*/
+
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 550px;
+    
+}
+
+
+#about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-top: 50px;
+
+}
+
+#about-text {
+    flex-basis: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font: bold 30px sans-serif;
+}
+
+#map-img {
+    width: 200px;
+    height: auto;
+    margin-left: 45px; 
+    margin-bottom: 50px;
+    
+}
+
+#box_about_bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#text-about-label-bottom {
+    font: bold 20px sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 45px;
+    flex-basis: 40%;
+}
+
+
+
+#text-about-p {
+    font: 15px sans-serif;
+    margin-left: 45px;
+    margin-right: 25px;
+
+}
+
+#info-contact {
+        font: 12px sans-serif;
+        margin-left: 65px;
 }
