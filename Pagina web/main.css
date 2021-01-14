@@ -1,3 +1,68 @@
+/*Menu hamburguesa*/
+
+ul{
+    display: none;
+  }
+  
+  #menu:checked  ~ ul{
+    display:block;
+  }
+  
+  #menu {
+    display: none;
+      position: static;
+  }
+  
+  #menulogo {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  
+  #menulogo:hover{
+    background: grey;
+    cursor: pointer; 
+
+  }
+  
+  #menu:checked ~ #menulogo {
+    background: lightgrey; 
+  }
+  
+  ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+  
+  }
+  
+  
+  li {
+    display: absolute;
+    background: white;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    cursor: pointer; 
+
+  }
+  
+  li:hover {
+    filter: brightness(110%);
+  }
+
+
+
+
+
 /*Barra de arriba*/
 
 #logo {
