@@ -545,3 +545,201 @@ footer{
         font: 15px sans-serif;
 
 }
+
+
+.menupos {
+    display: grid;
+    grid-template-columns: 100px, auto ;
+}
+
+.titulo_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: Sans-serif;
+}
+
+.box-items {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 25px,26px;
+    
+}
+
+.box-principal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+.segundacol {
+    margin-top: 19px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-direction: row;
+    flex-basis: 100%;
+    
+    
+}
+
+.cuartacol {
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+#movil {
+    
+}
+
+#labelsup {
+flex-basis: 33%    
+}
+
+
+
+
+
+#labelsup1 {
+    margin-left: 17px;
+    flex-basis: 33%
+}
+
+.item-oferta {
+    border: 2px solid black;
+     height: 300px;
+    max-width: 600px;
+    
+}
+
+.box-oferta {
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+}
+
+#portatil_img {
+ grid-column: end;
+}
+
+
+
+#items_ofertas {
+    display: grid;
+    grid-template-columns: 100px,auto;
+    margin: 5%
+    
+}
+
+.primeracol {
+    flex-basis: 33%;
+}
+
+#fotoprinc {
+    flex-basis: 33%;
+}
+
+
+
+#ofertas {
+    margin-left: 2%;
+}
+
+.todohome {
+    display: grid;
+    grid-auto-columns: 100px,auto;
+}
+
+#no-menu {
+    grid-column-start: 2;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+
+.menu-hamburguesa {
+    
+}
+
+.menuext {
+    max-width: 0px;
+}
+
+.menuhome {
+    display: grid;
+    grid-template-columns: 12% 1fr
+}
+
+
+
+.aboutgrid {
+    display: grid;
+    grid-column-start: 2;
+    
+}
+
+.contenedor_lista {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 900px;
+
+}
+
+#portatil-list {
+    flex-basis: 33%;
+}
+
+#nombreportatil {
+    flex-basis: 33%;
+    justify-items: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.imagenprinc {
+    flex-basis: 33%;
+    height: 120px;
+    width: auto;
+    
+}
+
+.principdiv {
+    width: 33%;
+    text-align: center
+}
+
+.menuizq {
+    max-width: 0pc;
+}
+
+.menuposabout {
+    display: grid;
+    grid-template-columns: 80px, auto ;
+}
