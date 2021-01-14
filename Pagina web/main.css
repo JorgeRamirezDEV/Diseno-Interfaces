@@ -424,3 +424,120 @@ footer{
     flex-basis: 100%;
     font: bold 25px sans-serif;
 }
+
+
+/*Detalles del producto*/
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: end;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+#img-price-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#imageproduct {
+    height: 350px;
+    margin-right: 70px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#nameproduct {
+        font: bold 30px sans-serif;
+
+}
+
+#infoproduct {
+    display: flex;
+    flex-direction: column;
+}
+
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+#progressbar>div {
+  background-color: orange;
+  width: 40%;
+  /* Adjust with JavaScript */
+  height: 5px;
+  border-radius: 10px;
+}
+
+#sugestion-product {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-basis: 100%;
+}
+
+#imageproduct1 {
+    height: 100px;
+}
+
+#plus {
+    margin-left: 20px;
+    margin-right: 20px;
+    font: 40px sans-serif;
+}
+
+#basketbutton {
+    margin-left: 40px;
+    height: 30px;
+}
+
+
+
+#container-description {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#descriptiontext {
+    font: 15px sans-serif;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    max-width: 450px;
+    margin-right: 230px;
+    
+}
+
+#productdetail-box {
+    padding-bottom: 0px;
+}
+
+p {
+    
+}
+
+#producttext {
+        font: 15px sans-serif;
+
+}
