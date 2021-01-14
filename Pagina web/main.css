@@ -141,7 +141,7 @@ header {
 /*Barra abajo*/
 
 footer{
-    display: flex
+    display: flex;
     bottom: 0;
     justify-content: center;
     align-items: center;
