@@ -547,10 +547,14 @@ footer{
 }
 
 
+/* posicion del menu hamburguesa */
+
 .menupos {
     display: grid;
     grid-template-columns: 100px, auto ;
 }
+
+/*HOMEPAGE*/
 
 .titulo_principal {
     display: flex;
@@ -558,6 +562,7 @@ footer{
     align-items: center;
     font: Sans-serif;
 }
+
 
 .box-items {
     display: flex;
