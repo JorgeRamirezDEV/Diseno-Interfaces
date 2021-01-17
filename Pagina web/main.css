@@ -9,18 +9,18 @@ nav {
 
 ul{
     display: none;
-  }
+}
   
-  #menu:checked  ~ ul{
+#menu:checked  ~ ul{
     display:block;
-  }
+}
   
-  #menu {
+#menu {
     display: none;
       position: static;
-  }
+}
   
-  #menulogo {
+#menulogo {
     box-sizing: border-box;
     display: inline-block;
     border: 1px solid black;
@@ -31,40 +31,41 @@ ul{
     font-weight: bold;
     text-align: center;
     user-select: none;
-  }
+}
   
-  #menulogo:hover{
+#menulogo:hover{
     background: grey;
     cursor: pointer; 
 
-  }
+}
   
-  #menu:checked ~ #menulogo {
+#menu:checked ~ #menulogo {
     background: lightgrey; 
-  }
+}
   
-  ul{
+
+ul{
     margin-top:0;
     padding: 0;
     width: 200px;
+    
   
-  }
+}
   
   
-  li {
-    display: absolute;
-    background: white;
+li {
     margin: 0;
     padding: 10px;
-    list-style: none;
     border-bottom: 1px solid grey;
     cursor: pointer; 
+    background-color: lightgrey;
+    border-radius: 10px;
 
-  }
+}
   
-  li:hover {
+li:hover {
     filter: brightness(110%);
-  }
+}
 
 
 
