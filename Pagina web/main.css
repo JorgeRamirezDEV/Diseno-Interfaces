@@ -1,5 +1,12 @@
 /*Menu hamburguesa*/
 
+nav {
+    float: left;
+
+}
+
+
+
 ul{
     display: none;
   }
