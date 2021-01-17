@@ -1,0 +1,123 @@
+body {
+    font: 15px sans-serif;
+
+}
+
+
+header{
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-around;
+    color: black;
+    font: bold 16px sans-serif;
+}
+footer{
+    background-color: orange;
+}
+.hero{
+    background-color:lightpink;
+}
+.sidebar{
+    background-color:lightgreen;
+}
+.mainContent{
+    background-color:lightsalmon;
+}
+.extraContent{
+    background-color:gray;
+}
+.relatedImages{
+    background-color: yellowgreen;
+}
+.relatedPost{
+    background-color:lightpink;
+}
+.grid{
+    display:grid;
+    gap:3px;
+    color:white;
+}
+li{
+    padding:10px;
+    float:left;
+    list-style-type:none;
+}
+.grid div, header, footer{
+    padding:8px 0px 8px 15px;
+    text-align: center;
+}
+@media screen and (max-width:576px){
+    
+    .sidebar, .relatedImages{
+        display:none;
+    }
+    .extraContent{
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .grid{
+        grid-template-rows: 1fr 3.5fr 5fr 1fr 1.5fr 2fr;
+        grid-template-columns: minmax(489px,1fr);
+    }
+}
+@media screen and (min-width:576px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    header{
+        grid-column: span 3;
+    }
+
+    .hero{
+        grid-row: span 2;
+    }
+
+    .sidebar{
+        grid-row: span 3;
+        grid-column-start:1;
+        grid-column-end: 2;
+    }
+
+    .mainContent{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+
+    .extraContent{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+
+    .relatedImages{
+        grid-column:span 2;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        grid-column: span 3;
+    }
+
+    #name {
+        align-self: flex-start;
+    }
+
+    #subject {
+        align-self: flex-end;
+        padding-right: 10px;
+
+    }
+    #group {
+        align-self: flex-end;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    
+}

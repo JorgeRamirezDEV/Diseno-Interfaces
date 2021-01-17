@@ -1,0 +1,149 @@
+.fotos {
+    display: grid;
+    grid-gap: 20px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+@media screen and (max-width: 576px){
+    
+    img { 
+        height: 200px;
+    }
+
+    .fotos {
+        grid-template-columns: 1fr 1fr;
+    }
+    #foto1 {
+        grid-column-start: 1;
+    }
+    #foto2 {
+        grid-column-start: 2;
+    }
+    #foto3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #foto4 {
+        grid-column-start: 1;
+    }
+    #foto5 {
+        grid-column-start: 2;
+    }
+    #foto6 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #foto7 {
+        grid-column-start: 1;
+    }
+    #foto8 {
+        grid-column-start: 2;
+    }
+    #foto9 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    
+    img { 
+        height: 250px;
+
+    }
+    
+    .fotos {
+        grid-template-columns: 25% 25% 50%;
+    }
+    
+    #foto1 {
+        grid-column-start: 1;
+    }
+
+    #foto2 {
+        grid-column-start: 2;
+    }
+
+    #foto3 {
+        grid-column-start: 3;
+    }
+    #foto4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #foto5 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    #foto6 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}   
+
+@media (min-width: 992px){
+    
+    img { 
+        height: 250px;
+
+    }
+
+    .fotos {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #foto1 {
+        grid-column-start: 1;
+
+    }
+
+    #foto2 {
+        grid-column-start: 2;
+
+    }
+    #foto3 {
+        grid-column-start: 3;
+
+    }
+    #foto4 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+    #foto5 {
+        grid-column-start: 6;
+
+    }
+    #foto6 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+
+    }
+
+    #foto7 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 525px;
+
+    }
+    #foto8 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 525px;
+
+
+    }
+}

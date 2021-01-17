@@ -1,0 +1,96 @@
+
+header { 
+    background-color: lightpink;
+    height: 70px;
+}
+
+nav { 
+    background-color: lightblue;
+}
+
+section {
+    background-color: lightyellow;
+}
+
+aside {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: grey;
+    height: 70px;
+
+}
+
+
+.middle {
+    display: grid;
+
+}
+
+
+
+@media screen and (max-width: 576px){
+    .middle{
+        grid-template-rows: 20% 50% 30%;
+        height: 300px;
+    }
+
+    nav{
+        grid-row-start: 1;
+    }
+
+    section{
+        grid-row-start: 2;
+    }
+
+    aside{
+        grid-row-start: 3;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .middle {
+        grid-template-rows: 30% 70%;
+        grid-template-columns: 30% 1fr;
+        height: 300px;
+    }
+    
+    nav {
+        grid-column-start: 1;
+
+    }
+
+    section { 
+        grid-column-start: 1;
+    }
+
+    Aside {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 3; /* Cuenta los border en lugar de lose spacios, por lo tanto empieza en la linea 1 y tiene que acabar en la 3, porque en las 2 es donde se pone por defecto */
+    }
+
+}
+
+@media (min-width: 992px){
+    
+    
+    .middle {
+        grid-template-columns: 20% 60% 20%;
+        height: 200px;
+
+    }
+    
+    nav {
+        grid-column-start: 1;
+    }
+
+    section { 
+        grid-column-start: 2;
+    }
+
+    Aside {
+        grid-column-start: 3;
+    }
+}

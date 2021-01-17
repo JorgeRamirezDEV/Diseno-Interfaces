@@ -1,0 +1,41 @@
+.grid{
+    display:grid;
+    grid-gap:5px;
+}
+.spaces{
+    background-color: lightgreen;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+header{
+    height:70px;
+}
+@media screen and (max-width:576px){
+    .grid{
+        grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+    }
+    
+}
+@media screen and (min-width:576px){
+    .grid{
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr 2fr 2fr 1fr 1fr 1fr;
+    }
+    header{
+        grid-column: span 2;
+    }
+    nav{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start:1;
+        grid-column-end:2;
+    }
+    article{
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    aside{
+        grid-row: span 2;
+    }
+    
+}
